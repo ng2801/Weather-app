@@ -139,7 +139,7 @@ body {
     .col img {
         width: 30px;
     }
-    .search input {
+    #search input {
         font-size: 14px;
         padding: 8px 15px;
     }
