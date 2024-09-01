@@ -146,6 +146,12 @@ body {
         justify-content: space-between;
     }
 
+    .search input {
+        max-width: 100%;
+        margin: 10px 0;
+        margin-right: 10px;
+    }
+    
     .search button {
         width: 60px;
         height: 30px;
