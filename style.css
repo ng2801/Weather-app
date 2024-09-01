@@ -49,9 +49,9 @@ body {
     border: 0;
     outline: 0;
     background: #ebfffc;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
     cursor: pointer;
 }
 
@@ -111,7 +111,7 @@ body {
     display: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .card {
         margin: 20px;
     }
@@ -139,15 +139,17 @@ body {
     .col img {
         width: 30px;
     }
-    .search input {
-        font-size: 14px;
-        padding: 8px 15px;
+    .search{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
-}
 
-@media (min-width: 768px) {
-    .card {
-        width: 80%;
+    .search button {
+        width: 60px;
+        height: 30px;
+        cursor: pointer;
     }
 }
 
